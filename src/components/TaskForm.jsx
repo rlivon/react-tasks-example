@@ -18,8 +18,12 @@ function TaskForm() {
   };
   return (
     <div className="max-w-md mx-auto">
+      <div className="flex items-center">
+        <h1 className="text-2xl font-bold text-blue-200 mb-3 mx-auto">
+          THCodeX
+        </h1>
+      </div>
       <form className="bg-zinc-800 p-10 mb-4" onSubmit={handleSubmit}>
-        <h1 className="text-2xl font-bold text-white mb-3">THCodeX</h1>
         <h1 className="text-xl font-bold text-gray-600 mb-3">Crea Tu tarea</h1>
         <input
           className="bg-slate-300 p-3 w-full mb-2"
@@ -34,8 +38,7 @@ function TaskForm() {
           onChange={(e) => setDescripcion(e.target.value)}
           value={descripcion}
         />
-        <button
-        className="bg-indigo-500 px-3 py-1 text-white">Guardar</button>
+        <button className="bg-indigo-500 px-3 py-1 text-white">Guardar</button>
       </form>
     </div>
   );
