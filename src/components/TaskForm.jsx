@@ -19,7 +19,8 @@ function TaskForm() {
   return (
     <div className="max-w-md mx-auto">
       <form className="bg-zinc-800 p-10 mb-4" onSubmit={handleSubmit}>
-        <h1 className="text-2xl font-bold text-white mb-3">Crea Tu tarea</h1>
+        <h1 className="text-2xl font-bold text-white mb-3">THCodeX</h1>
+        <h1 className="text-xl font-bold text-gray-600 mb-3">Crea Tu tarea</h1>
         <input
           className="bg-slate-300 p-3 w-full mb-2"
           placeholder="Escribe tu tarea: "
