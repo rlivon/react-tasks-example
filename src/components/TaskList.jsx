@@ -8,7 +8,7 @@ function TaskList() {
   if (tasks.lenght === 0) {
     return (
       <h1 className="text-white text-4xl font-bold text-center">
-        No hay tareas aún
+        No hay tareas aún nada
       </h1>
     );
   }
